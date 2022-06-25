@@ -8,7 +8,7 @@ pipeline {
 
                 steps {
                     echo "building..."
-                    sh "python --version"
+                    sh "ls"
                 }
 
             }
