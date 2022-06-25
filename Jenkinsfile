@@ -1,8 +1,6 @@
-cat <<-'JENKINSFILE' > Jenkinsfile
-
 pipeline {
 
-    agent any
+    agent { dockerfile { filename 'Dockerfile.build' } }
 
         stages {
 
